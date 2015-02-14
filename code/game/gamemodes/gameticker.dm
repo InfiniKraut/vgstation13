@@ -54,8 +54,7 @@ var/global/datum/controller/gameticker/ticker
 	'sound/music/gaytony.ogg',\
 	'sound/music/rocketman.ogg',\
 	'sound/music/2525.ogg',\
-	'sound/music/moonbaseoddity.ogg',\
-	'sound/music/whatisthissong.ogg')
+	'sound/music/moonbaseoddity.ogg')
 	do
 		pregame_timeleft = world.timeofday + 3000 //actually 5 minutes or incase this is changed from 3000, (time_in_seconds * 10)
 		world << "<B><FONT color='blue'>Welcome to the pre-game lobby!</FONT></B>"
