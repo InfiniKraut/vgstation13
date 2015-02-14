@@ -415,7 +415,7 @@ Round Duration: [round(hours)]h [round(mins)]m<br>"}
 		client.prefs.randomize_appearance_for(new_character)
 		client.prefs.flavor_text = ""
 	else
-		client.prefs.real_name = random_name(new_character.gender)
+		client.prefs.real_name = random_name(client.prefs.gender)
 		client.prefs.copy_to(new_character)
 
 	src << sound(null, repeat = 0, wait = 0, volume = 85, channel = 1) // MAD JAMS cant last forever yo
